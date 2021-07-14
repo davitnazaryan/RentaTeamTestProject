@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_users">Пользователи</string>
+    <string name="title_about">О приложении</string>
+    <string name="about_msg">Тестовое задание для Rentateam</string>
+
+</resources>
