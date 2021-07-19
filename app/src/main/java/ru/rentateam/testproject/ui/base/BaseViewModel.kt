@@ -8,7 +8,7 @@ open class BaseViewModel(
     val app: Application,
 ) : AndroidViewModel(app) {
 
-    val toastTextLiveData = MutableLiveData<String>()
+    val toastTextLiveData = MutableLiveData<String?>()
 
 
     fun makeToaster(resId: Int) {
@@ -17,5 +17,9 @@ open class BaseViewModel(
 
     fun makeToaster(text: String) {
         toastTextLiveData.postValue(text)
+    }
+    
+    fun clearToaster() {
+        toastTextLiveData.postValue(null)
     }
 }

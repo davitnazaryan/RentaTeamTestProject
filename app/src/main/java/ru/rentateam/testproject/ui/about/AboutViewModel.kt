@@ -10,12 +10,11 @@ import javax.inject.Inject
 
 @HiltViewModel
 class AboutViewModel @Inject constructor(
-   app: Application
+    app: Application
 ) : BaseViewModel(app) {
 
     private val _text = MutableLiveData<String>().apply {
         value = app.getString(R.string.about_msg)
     }
-
     val text: LiveData<String> = _text
 }

@@ -3,5 +3,8 @@
     <string name="title_users">Пользователи</string>
     <string name="title_about">О приложении</string>
     <string name="about_msg">Тестовое задание для Rentateam</string>
+    <string name="first_name">Имя</string>
+    <string name="last_name">Фамилия</string>
+    <string name="internal_error">Внутренняя ошибка</string>
 
 </resources>
